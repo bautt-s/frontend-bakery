@@ -1,3 +1,5 @@
+import Team from './components/Team'
+import Story from './components/Story'
 import NavBar from './components/NavBar'
 import Carousel from './components/Carousel'
 
@@ -11,6 +13,9 @@ function App() {
               <Carousel />
           </div>
         </div>
+
+        <Story />
+        <Team />
     </div>
   );
 }
